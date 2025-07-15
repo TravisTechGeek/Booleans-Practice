@@ -16,16 +16,14 @@ third_statement = "No" # this statement is an opinion and is neither true or fal
 
 statement_one = not (4 + 5 <= 9) # False, why? 4+5=9<=9.which is true, but because we have used the not function, the opposite of the result is the answer.
 
-statement_two = not (8 * 2) != 20 - 4 #True, why? 8*2=16!=20-4=16 or to simplify the equation with the answers 16 != !6. Remember != means not equal to.  so if the statement actually is false and the not function takes the opposite of a false statement, the answer is actually true
+statement_two = not (8 * 2) != 20 - 4 #True, why? 8*2=16!=20-4=16 or to simplify the equation with the answers 16 != !6. Remember != means not equal to.
+#So if the statement actually is false and the not function takes the opposite of a false statement, the answer is actually true
 
 # The registrar’s office at Calvin Coolidge’s Cool College has been so impressed with your work so far that they have another task for you.
-
 # They want you to return to a previous if statement and add in several checks using and and not statements:
 
 # If a student’s credits is not greater or equal to 120, it should print: "You do not have enough credits to graduate."
-
 # If their gpa is not greater or equal to 2.0, it should print: "Your GPA is not high enough to graduate."
-
 # If their credits is not greater than or equal to 120 and their gpa is not greater than or equal to 2.0, it should print:"You do not meet either requirement to graduate!"
 
 credits = 120
